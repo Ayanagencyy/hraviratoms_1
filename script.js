@@ -132,17 +132,19 @@ const video = document.querySelector('video');
 const anim1 = document.querySelector('.name1');
 const anim2 = document.querySelector('.and');
 const anim3 = document.querySelector('.name2');
+const anim4 = document.querySelector('.lang-switch');
 
 video.addEventListener('ended', () => {
 
     anim1.classList.add('act');
     anim2.classList.add('act');
     anim3.classList.add('act');
+    anim4.classList.add('act');
     enableScroll()
 
 });
 
-const targetDate = new Date('2026-09-26T00:00:00');
+const targetDate = new Date('2026-07-01T00:00:00');
 
 function calculateTimeLeft() {
     const difference = targetDate - new Date();
@@ -173,3 +175,41 @@ function updateTimer() {
 
 setInterval(updateTimer, 1000);
 updateTimer();
+
+
+const translations = {
+    ru: {
+        title: " Начните день с уборки."
+    },
+    am: {
+        title: " Բացահայտեք օրը՝ մաքրելով այն"
+    }
+};
+
+const buttons = document.querySelectorAll(".lang-btn");
+
+buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+        const lang = btn.dataset.lang;
+
+        // меняем текст
+        document.querySelectorAll("[data-long]").forEach(el => {
+            const key = el.getAttribute("data-long");
+            el.textContent = translations[lang][key];
+        });
+
+        // меняем активную кнопку
+        buttons.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        // сохраняем язык
+        localStorage.setItem("lang", lang);
+    });
+});
+
+// загрузка сохранённого языка
+window.addEventListener("DOMContentLoaded", () => {
+    const savedLang = localStorage.getItem("lang") || "am";
+
+    document.querySelector(`[data-lang="${savedLang}"]`)?.click();
+});

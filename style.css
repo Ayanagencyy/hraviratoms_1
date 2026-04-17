@@ -73,6 +73,39 @@ video {
     display: block;
 }
 
+.lang-switch {
+    font-size: 16px;
+    position: absolute;
+    top: -12%;
+    right: 3%;
+    z-index: 1;
+    display: inline-flex;
+    background: white;
+    border-radius: 25px;
+    padding: 4px;
+    transition: 0.5s;
+}
+
+.lang-switch.act {
+    animation: sw 1s linear forwards;
+
+}
+
+.lang-btn {
+    border: none;
+    background: transparent;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.lang-btn.active {
+    background: #6b1d1d;
+    color: white;
+}
+
 h1 {
     font-family: "Great Vibes", cursive;
     font-weight: 200;
@@ -120,6 +153,8 @@ h1 {
 }
 
 
+
+
 @keyframes text1 {
     from {
         left: -120%;
@@ -127,6 +162,16 @@ h1 {
 
     to {
         left: 29%;
+    }
+}
+
+@keyframes sw {
+    from {
+        top: -12%;
+    }
+
+    to {
+        top: 3%;
     }
 }
 
@@ -736,7 +781,7 @@ h6 {
     top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: "Great Vibes";
+    font-family: "Great Vibes", cursive;
 
 }
 
@@ -751,9 +796,7 @@ h6 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #5C2018;
-    font-family: "Great Vibes";
-
-    animation: date-text 1s linear forwards 3s;
+    font-family: "Great Vibes", cursive;
 }
 
 .a_a {
@@ -786,7 +829,7 @@ h6 {
 
     box-sizing: border-box;
 
-    width:400px;
+    width: 360px;
     height: 40px;
 
     background: rgba(255, 255, 255, 0.8);
@@ -827,7 +870,7 @@ p {
 }
 
 .att {
-    max-width: 400px;
+    max-width: 360px;
     width: 100%;
     height: 50px;
     display: flex;
@@ -900,7 +943,7 @@ p {
 
     background: #5C201833;
     border-radius: 12px;
-    max-width: 400px;
+    max-width: 360px;
     width: 100%;
     height: 40px;
     color: white;
@@ -911,7 +954,7 @@ p {
 }
 
 .rd {
-    max-width: 400px;
+    max-width: 360px;
     width: 100%;
 }
 
