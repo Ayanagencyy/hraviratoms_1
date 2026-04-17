@@ -179,10 +179,31 @@ updateTimer();
 
 const translations = {
     ru: {
-        title: " Начните день с уборки."
+        title: " "
     },
     am: {
-        title: " Բացահայտեք օրը՝ մաքրելով այն"
+        title: " Բացահայտեք օրը՝ մաքրելով այն",
+        h1: "Սիրելի' հյուրեր,",
+        h2: `Ցանկանում ենք Ձեզ հետ կիսել մեր <br> կյանքի կարևորագույն օրերից մեկը։ <br>
+            Մեծ ուրախությամբ հրավիրում ենք Ձեզ <br> մեր նշանադրության արարողությանը։<br>`,
+        way: "Օրակարգ",
+        p1: `              <span class="sspan"> 
+                        Morena Restaurant
+                    </span><br>
+                     Հասցե ՝  Արարատի մարզ, Մասիս<br>
+                     Մխիթար Հերացու փող., 7/8 շենք`,
+        // s1: "Փեսայի տուն",
+        p2: `                        <span class="placespan" data-long="s2">
+                            Հարսի տուն 12:00
+                        </span><br>
+                        Հասցե ՝ Պարիս Հերունու փողոց, 40`,
+        p3: `                        <span class="placespan" data-long="s3">
+                            Պսակադրության արարողություն 15:00
+                        </span><br>
+                        Սուրբ Գայանե եկեղեցի, Էջմիածին`,
+        s3: "Պսակադրության արարողություն 15:00",
+        m: "Արարողությունը տեղի կունենա",
+        map: "Քարտեզ",
     }
 };
 
@@ -195,7 +216,7 @@ buttons.forEach(btn => {
         // меняем текст
         document.querySelectorAll("[data-long]").forEach(el => {
             const key = el.getAttribute("data-long");
-            el.textContent = translations[lang][key];
+            el.innerHTML = translations[lang][key];
         });
 
         // меняем активную кнопку
@@ -211,5 +232,5 @@ buttons.forEach(btn => {
 window.addEventListener("DOMContentLoaded", () => {
     const savedLang = localStorage.getItem("lang") || "am";
 
-    document.querySelector(`[data-lang="${savedLang}"]`)?.click();
+    document.querySelector(`[data - lang= "${savedLang}"]`)?.click();
 });

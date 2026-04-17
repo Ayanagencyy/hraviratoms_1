@@ -767,9 +767,16 @@ h6 {
     border: 1px #5C2018 solid;
     border-radius: 12px;
     padding: 15px 0;
+    opacity: 0;
+    transform: translateY(-10%);
+    transition: 0.5s;
 
 }
 
+.W.active {
+    transform: translateY(0);
+    opacity: 1;
+}
 
 .date2 {
     z-index: 1;
@@ -921,7 +928,7 @@ p {
 
     gap: 24px;
 
-    max-width: 480px;
+    max-width: 450px;
     width: 100%;
     height: 566px;
 
