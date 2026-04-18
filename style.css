@@ -1084,9 +1084,10 @@ p {
 .t {
     text-align: start;
     margin: 5px 0;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: "Noto Serif Armenian";
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Noto Sans Armenian", sans-serif;
+
     color: #5C2018;
 }
 
@@ -1104,7 +1105,7 @@ h1 {
     align-items: center;
     gap: 5px;
     border: 1px solid #5C201826;
-    border-radius: 12px;
+    border-radius: 10px;
     background-color: #5C201814;
     color: #5C2018;
 }
