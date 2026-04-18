@@ -164,7 +164,7 @@ h1 {
     left: 40%;
     transform: translateY(-50%);
     z-index: 2;
-    color: #5C2018;
+    color: rgba(92, 32, 24, 0.7);
 }
 
 .and.act {
