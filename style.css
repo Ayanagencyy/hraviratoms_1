@@ -117,6 +117,7 @@ video {
     cursor: pointer;
     font-weight: 500;
     transition: 0.3s;
+    color: black;
 }
 
 .lang-btn.active {
@@ -785,6 +786,26 @@ a {
     width: 100%;
 }
 
+.tg {
+    font-family: "Noto Sans Armenian", sans-serif;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+    border-radius: 6px;
+    color: #5C2018;
+    border: #5C2018 1px solid;
+}
+
+.TG {
+    max-width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 /*Void****************************************************************************************************************************************/
 
 .void {
@@ -1056,7 +1077,7 @@ p {
 .h {
     font-size: 24px;
     color: #5C2018;
-    font-family: "NorKirk";
+    font-family: "Noto Sans Armenian", sans-serif;
 
 }
 
@@ -1071,4 +1092,24 @@ p {
 
 h1 {
     text-align: center;
+}
+
+
+.alert {
+    margin: 30px auto 10px;
+    max-width: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #5C201826;
+    border-radius: 12px;
+    background-color: #5C201814;
+    color: #5C2018;
+}
+
+
+.palert {
+    font-size: 12px;
 }

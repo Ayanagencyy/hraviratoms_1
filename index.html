@@ -145,7 +145,7 @@
                 </p>
             </div>
             <a href="https://maps.app.goo.gl/D6FtRa6m7T3VFYfHA?g_st=ic" target="_blank" class="m lng-mapt">Քարտեզ</a>
-            <div class="t">
+            <div class="t" data-long="t">
                 ԺԱՄԸ`<span id="t">
                     18:00 <br>
                     01.07․2026
@@ -158,68 +158,79 @@
         <img src="7.jpg" alt="" id="w">
     </div>
     <div class="timer _anim-items">
-        <h1 class="lng-timerhead">Մնացել է ...</h1>
+        <h1 class="lng-timerhead" data-long="wait">Մնացել է ...</h1>
         <div class="times _anim-items" id="timerContainer">
             <div class="time-unit">
                 <div id="days" class="number">00</div>
-                <div class="timeName lng-days">ՕՐ</div>
+                <div class="timeName lng-days" data-long="day">ՕՐ</div>
             </div>
             <div class="time-unit">
                 <div id="hours" class="number">00</div>
-                <div class="timeName lng-hours">ԺԱՄ</div>
+                <div class="timeName lng-hours" data-long="hour">ԺԱՄ</div>
             </div>
             <div class="time-unit">
                 <div id="minutes" class="number">00</div>
-                <div class="timeName lng-minutes">ՐՈՊԵ</div>
+                <div class="timeName lng-minutes" data-long="minute">ՐՈՊԵ</div>
             </div>
             <div class="time-unit">
                 <div id="seconds" class="number">00</div>
-                <div class="timeName lng-seconds">ՎՐԿ</div>
+                <div class="timeName lng-seconds" data-long="sec">ՎՐԿ</div>
             </div>
         </div>
     </div>
     <div class="cars">
-        <p class="cart">Մինչ մեր հեքիաթը սկսվի</p>
+        <p class="cart" data-long="tail">Մինչ մեր հեքիաթը սկսվի</p>
         <div>
             <img class="car" src="car.png" alt="">
         </div>
-        <p class="cart">Սքանավորեք՝ օրվա լուսանկարները ավելացնելու համար
+        <p class="cart" data-long="tail2">Սքանավորեք՝ օրվա լուսանկարները ավելացնելու համար
     </div>
     </p>
     <div class="qr">
         <img src="qr.png" alt="" id="qr">
     </div>
-    <h1 class="h">Հաստատեք ձեր ներկայությունը</h1>
+    <div class="TG">
+        <a href="https://t.me/+OeahYfMjLGI1NjYy" target="_blank">
+            <button class="tg" data-long="tg">
+                Telegram հղում</button>
+        </a>
+    </div>
+    <div class="alert">
+        <img src="Component 1.svg" alt="">
+        <p class="palert" data-long="alert">Խնդրում ենք հաստատել Ձեր ներկայությունը մինչև Հունիսի 1-ը</p>
+    </div>
+    <h1 class="h" data-long="alert1">Հաստատեք ձեր ներկայությունը
+    </h1>
     <form action="https://formsubmit.co/makaryansona33@gmail.com" method="POST">
         <div class="block">
             <div>
-                <p class="t">Անուն Ազգանուն՝</p>
+                <p class="t" data-long="name">Անուն Ազգանուն՝</p>
                 <input type="text" name="Անուն Ազգանուն" required class="inp" placeholder="Անուն Ազգանուն" />
             </div>
             <div class="rd">
-                <p class="t">Ներկաըանլու էք?</p>
+                <p class="t" data-long="r">Ներկաըանլու էք?</p>
                 <div class="att">
                     <input type="radio" name="Ներկաըանլու է" required value="Այո" class="rad" id="yes">
-                    <label for="yes">Այո</label>
+                    <label for="yes" data-long="yes">Այո</label>
                     <input type="radio" name="Ներկաըանլու է" required value="Ոչ" class="rad" id="no">
-                    <label for="no">Ոչ</label>
+                    <label for="no" data-long="no">Ոչ</label>
                 </div>
             </div>
             <div class="rd">
-                <p class="t">Ում կողմից էք գալու</p>
+                <p class="t" data-long="t">Ում կողմից էք գալու</p>
                 <div class="att">
                     <input type="radio" name="Ում կողմից" required value="Վահագ" class="rad" id="vah">
-                    <label for="vah">Վահագի</label>
+                    <label for="vah" data-long="name1">Վահագի</label>
                     <input type="radio" name="Ում կողմից" required value="Սոնա" class="rad" id="son">
-                    <label for="son">Սոնայի</label>
+                    <label for="son" data-long="name2">Սոնայի</label>
                 </div>
             </div>
             <div>
-                <p class="t">Քանի Հոգի</p>
+                <p class="t" data-long="guest">Քանի Հոգի</p>
                 <input type="text" name="Guests" class="inp" placeholder="Անուն Ազգանուն" required />
             </div>
 
-            <button type="submit" class="btn">Ուղարկել</button>
+            <button type="submit" class="btn" data-long="send">Ուղարկել</button>
 
             <input type="hidden" name="_subject" value="New RSVP Response" />
             <input type="hidden" name="_captcha" value="false" />
@@ -231,8 +242,8 @@
     <div class="b">
         <div class="c">
             <div class="ayan">
-                <h2 class="lng-ayant1">Կայքը պատրաստել է</h2>
-                <h6 class="lng-ayant1">սեղմիր այստեղ</h6>
+                <h2 class="lng-ayant1" data-long="cr">Կայքը պատրաստել է</h2>
+                <h6 class="lng-ayant1" data-long="click">սեղմիր այստեղ</h6>
                 <a href="https://www.ayandesign.am/#home" target="_blank">
                     <img class="logo" src="logo.png" alt="">
                 </a>
