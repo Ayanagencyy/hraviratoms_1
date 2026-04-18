@@ -226,10 +226,10 @@ const translations = {
                             font-family: "Pacifico", cursive;
                         }
                     </style>`,
-        day: "ДНЕЙ",
-        hour: "ЧАСОВ",
-        minute: "МИНУТ",
-        sec: "СЕКУНД",
+        day: "День",
+        hour: "Час",
+        minute: "Минут",
+        sec: "Секунд",
         tail: "До начала нашей сказки",
         tail2: "Отсканируйте, чтобы добавить фотографии дня",
         tg: "Ссылка Telegram",
