@@ -253,7 +253,7 @@ h1 {
         top: -100%;
         opacity: 0;
     }
-    
+
     to {
         top: 12%;
         opacity: 1;
@@ -561,9 +561,10 @@ a {
 }
 
 .mapheader {
-    margin-top: 40px;
-    font-size: 17px;
-    font-family: "Kotayk";
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: "Noto Sans Armenian", sans-serif;
+    font-weight: 400;
 }
 
 .card.active {
@@ -722,7 +723,7 @@ a {
 
 .timer {
     margin: auto;
-    margin-top: -10%;
+    /* margin-top: -10%; */
     max-width: 480px;
     width: 100%;
     display: flex;
@@ -889,11 +890,11 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 380px;
+    max-width: 420px;
     margin: 15px auto;
     border: 1px #5C2018 solid;
     border-radius: 12px;
-    padding: 15px 0;
+    padding: 10px 0;
     opacity: 0;
     transform: translateY(-10%);
     transition: 0.5s;
@@ -907,7 +908,7 @@ h6 {
 
 #w {
     display: block;
-    width: 90%;
+    width: 95%;
     border-radius: 12px;
 }
 
