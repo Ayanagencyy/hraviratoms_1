@@ -105,13 +105,14 @@ video {
 
 .lang-switch.act {
     animation: sw 1s linear forwards;
+    color: black;
 
 }
 
 .lang-btn {
     border: none;
     background: transparent;
-    padding: 8px 16px;
+    padding: 5px 10px;
     border-radius: 20px;
     cursor: pointer;
     font-weight: 500;
@@ -286,7 +287,7 @@ h1 {
     }
 
     to {
-        left: 17%;
+        left: 15%;
     }
 }
 
@@ -326,7 +327,7 @@ h1 {
     }
 
     to {
-        left: 39%;
+        left: 41%;
     }
 }
 
@@ -522,13 +523,13 @@ h1 {
 }
 
 .placetext {
-    font-size: 18px;
+    font-size: 15px;
     font-family: "Bruney";
     font-weight: 400;
 }
 
 .placespan {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 900;
     font-family: "Noto sans Armenian";
 }
