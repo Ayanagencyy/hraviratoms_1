@@ -188,10 +188,16 @@ updateTimer();
 const translations = {
     ru: {
         title: "Откройте день, очистив его",
-        h1: "Дорогие гости,",
+        h1: `Дорогие гости, <style>.lng-latetext1{
+                            font-family: "Pacifico", cursive;
+                        }
+                    </style>`,
         h2: `Хотим разделить с вами <br> один из самых важных дней нашей жизни. <br>
             С большой радостью приглашаем вас <br> на нашу церемонию помолвки.<br>`,
-        way: "Программа",
+        way: `Программа <style>.mapheader{
+                            font-family: "Pacifico", cursive;
+                        }
+                    </style>`,
         p1: `<span class="sspan"> 
                 Morena Restaurant
             </span><br>
@@ -206,13 +212,20 @@ const translations = {
             </span><br>
             Церковь Святой Гаяне, Эчмиадзин`,
         s3: "Церемония венчания 15:00",
-        m: "Церемония состоится",
+        m: `Церемония состоится <style>.pltext{
+                            font-size: 24px;
+                            font-family: "Pacifico", cursive;
+                        }
+                    </style>`,
         map: "Карта",
         t: `ВРЕМЯ:<span id="t">
                 18:00 <br>
                 01.07.2026
             </span>`,
-        wait: "Осталось ...",
+        wait: `Осталось ... <style>.lng-timerhead{
+                            font-family: "Pacifico", cursive;
+                        }
+                    </style>`,
         day: "ДНЕЙ",
         hour: "ЧАСОВ",
         minute: "МИНУТ",
@@ -221,7 +234,10 @@ const translations = {
         tail2: "Отсканируйте, чтобы добавить фотографии дня",
         tg: "Ссылка Telegram",
         alert: "Пожалуйста, подтвердите ваше присутствие до 1 июня",
-        alert1: `Подтвердите ваше присутствие`,
+        alert1: `Подтвердите ваше присутствие <style>.h{
+                            font-family: "Pacifico", cursive;
+                        }
+                    </style>`,
         name: "Имя Фамилия:",
         name1: "Со стороны Вагага",
         name2: "Со стороны Соны",
@@ -231,8 +247,18 @@ const translations = {
         t: "С чьей стороны вы приглашены?",
         guest: "Количество гостей",
         send: "Отправить",
-        cr: "Сайт разработан",
-        click: "нажмите здесь"
+        cr: `Сайт разработан <style>
+                        .lng-ayant1 {
+                            font-family: "Pacifico", cursive;
+                        }
+                    </style>`,
+        click: "нажмите здесь",
+        img: `        <style>
+            .love {
+                background-image: url(ru.png);
+
+            }
+        </style>`
     },
     am: {
         title: " Բացահայտեք օրը՝ մաքրելով այն",
@@ -281,7 +307,8 @@ const translations = {
         guest: "Հյուրերի քանակը",
         send: "Ուղարկել",
         cr: "Կայքը պատրաստել է",
-        click: "սեղմիր այստեղ"
+        click: "սեղմիր այստեղ",
+        img: ""
     }
 };
 
