@@ -133,6 +133,10 @@ const anim1 = document.querySelector('.name1');
 const anim2 = document.querySelector('.and');
 const anim3 = document.querySelector('.name2');
 const anim4 = document.querySelector('.lang-switch');
+const anim5 = document.querySelector('.h-img');
+const anim6 = document.querySelector('.date-text');
+const anim7 = document.querySelector('.date2');
+const anim8 = document.querySelector('.a_a');
 
 video.addEventListener('ended', () => {
 
@@ -140,6 +144,10 @@ video.addEventListener('ended', () => {
     anim2.classList.add('act');
     anim3.classList.add('act');
     anim4.classList.add('act');
+    anim5.classList.add('act');
+    anim6.classList.add('act');
+    anim7.classList.add('act');
+    anim8.classList.add('act');
     enableScroll()
 
 });
