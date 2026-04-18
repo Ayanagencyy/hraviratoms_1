@@ -137,11 +137,11 @@ h1 {
 }
 
 .name1.act {
-    animation: text1 1s linear forwards 1s;
+    animation: text1 1.5s linear forwards ;
 }
 
 .h-img.act {
-    animation: img 1s linear forwards 1s;
+    animation: img 1s linear forwards ;
 }
 
 .name1 {
@@ -168,11 +168,11 @@ h1 {
 }
 
 .and.act {
-    animation: text2 1s linear forwards 1s;
+    animation: text2 1.5s linear forwards ;
 }
 
 .name2.act {
-    animation: text3 1s linear forwards 1s;
+    animation: text3 1.5s linear forwards ;
 }
 
 .name2 {
@@ -201,17 +201,17 @@ h1 {
 }
 
 .date2.act {
-    animation: l 1s linear forwards 1s;
+    animation: l 1.5s linear forwards ;
 
 }
 
 .date-text.act {
-    animation: r 1s linear forwards 1s;
+    animation: r 1.5s linear forwards ;
 
 }
 
 .a_a.act {
-    animation: a 1s linear forwards 1s;
+    animation: a 1.5s linear forwards ;
 }
 
 .date-text {
