@@ -186,7 +186,7 @@ h1 {
     text-align: center;
     font-size: 30px;
     position: absolute;
-    top: 10%;
+    top: 11%;
     left: -150%;
     transform: translate(-50%, -50%);
     font-family: "Great Vibes", cursive;
@@ -213,7 +213,7 @@ h1 {
     text-align: center;
     font-size: 34px;
     position: absolute;
-    top: 7%;
+    top: 6%;
     left: 150%;
     transform: translate(-50%, -50%);
     color: #5C2018;
@@ -553,12 +553,12 @@ a {
 .map {
     text-align: center;
     border: 1px solid #5C2018;
-    padding: 15px 10px;
+    padding: 8px 10px;
     border-radius: 10px;
-    max-width: 280px;
-    width: 100%;
+    width: 180px;
     margin-top: 10px;
     margin-bottom: 40px;
+    color: #5C2018;
 }
 
 .mapheader {
@@ -620,13 +620,13 @@ a {
 .m {
     text-align: center;
     border: 1px solid #5C2018;
-    padding: 15px 10px;
+    padding: 8px 10px;
     border-radius: 10px;
-    max-width: 220px;
-    height: 15px;
-    width: 100%;
-    margin-top: 10px;
+    width: 180px;
 
+    height: 15px;
+    margin-top: 10px;
+    color: #5C2018;
 }
 
 .pltext {
@@ -1062,13 +1062,13 @@ p {
     transition: 0.3s;
 }
 
-.btn:hover {
+/* .btn:hover {
     color: #5C2018;
 }
 
 .btn:active {
     background-color: #5C2018;
-}
+} */
 
 .rd {
     max-width: 360px;
