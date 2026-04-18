@@ -104,7 +104,7 @@ video {
 }
 
 .lang-switch.act {
-    animation: sw 1s linear forwards;
+    animation: sw 1s linear forwards 1s;
     color: black;
 
 }
@@ -131,11 +131,11 @@ h1 {
 }
 
 .name1.act {
-    animation: text1 1s linear forwards;
+    animation: text1 1s linear forwards 1s;
 }
 
 .h-img.act {
-    animation: img 1s linear forwards;
+    animation: img 1s linear forwards 1s;
 }
 
 .name1 {
@@ -194,17 +194,17 @@ h1 {
 }
 
 .date2.act {
-    animation: l 1s linear forwards 0.5s;
+    animation: l 1s linear forwards 1s;
 
 }
 
 .date-text.act {
-    animation: r 1s linear forwards 0.5s;
+    animation: r 1s linear forwards 1s;
 
 }
 
 .a_a.act {
-    animation: a 1s linear forwards 0.5s;
+    animation: a 1s linear forwards 1s;
 }
 
 .date-text {
@@ -1051,8 +1051,9 @@ p {
 .btn {
     /* Rectangle 29 */
     border-color: transparent;
+    font-size: 16px;
+    background-color: #5C2018;
 
-    background: #5C201833;
     border-radius: 12px;
     max-width: 360px;
     width: 100%;
