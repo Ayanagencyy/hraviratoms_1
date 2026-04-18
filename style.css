@@ -151,21 +151,22 @@ h1 {
 }
 
 .and {
+    width: 78px;
     font-size: 78px;
     position: absolute;
     top: -35%;
-    left: 44%;
+    left: 40%;
     transform: translateY(-50%);
     z-index: 2;
     color: #5C2018;
 }
 
 .and.act {
-    animation: text2 1s linear forwards;
+    animation: text2 1s linear forwards 1s;
 }
 
 .name2.act {
-    animation: text3 1s linear forwards;
+    animation: text3 1s linear forwards 1s;
 }
 
 .name2 {
